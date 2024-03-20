@@ -9,6 +9,27 @@
 </head>
 
 <body>
+    <header>
+        <h1>Giphy Search</h1>
+        <p>Find your favorite GIFs!</p>
+    </header>
+  
+    <main>
+      <input id="search-bar" type="text" placeholder="Search for gifs...">
+      <button id="submit-btn">Submit</button>
+      <div id="gif-container"></div>
+      <div id="pagination">
+          <button id="prev-btn" disabled>Previous</button>
+          <button id="next-btn" disabled>Next</button>
+      </div>
+      <p id="error-message" class="error-message"></p>
+      <p id="loading" class="loading" style="display: none;">Loading...</p>
+    </main>
+  
+    <footer>
+        <p>© 2024 Giphy Search. All rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>
