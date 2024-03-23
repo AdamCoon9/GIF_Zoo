@@ -43,3 +43,23 @@ document.getElementById('home-tab').addEventListener('click', function() {
     prevBtn.disabled = true;
     nextBtn.disabled = true;
 });
+async function fetchGifs(query) {
+    loading.style.display = 'block'; 
+    try {
+        const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=W6M1RJw2FHpwR7no6uDIDH59ADEHFA7L&q=${query}&limit=25&offset=${offset}&rating=g&lang=en`);
+        
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        const data = await response.json();
+        displayGifs(data.data);
+        prevBtn.disabled = offset === 0;
+        nextBtn.disabled = data.data.length < 25;
+    } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
+        errorMessage.textContent = 'There was an error fetching the gifs. Please try again later.';
+    } finally {
+        loading.style.display = 'none';
+    }
+}
