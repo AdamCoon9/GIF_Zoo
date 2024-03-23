@@ -63,3 +63,25 @@ async function fetchGifs(query) {
         loading.style.display = 'none';
     }
 }
+function displayGifs(gifs) {
+    gifContainer.innerHTML = '';
+
+    gifs.forEach(gif => {
+        const gifItem = document.createElement('div');
+        gifItem.classList.add('gif-item');
+
+        const gifImage = document.createElement('img');
+        gifImage.src = gif.images.fixed_height.url;
+        gifImage.alt = gif.title;
+
+        gifImage.addEventListener('click', function() {
+            window.open(gif.images.fixed_height.url, '_blank');
+        });
+
+        gifItem.appendChild(gifImage);
+        gifContainer.appendChild(gifItem);
+    });
+}
+
+if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+}
