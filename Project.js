@@ -25,3 +25,12 @@ searchBar.addEventListener('keyup', function(e) {
         fetchGifs(query);
     }
 });
+prevBtn.addEventListener('click', function() {
+    offset = Math.max(0, offset - 25); 
+    fetchGifs(query);
+});
+
+nextBtn.addEventListener('click', function() {
+    offset += 25;
+    fetchGifs(query);
+});
