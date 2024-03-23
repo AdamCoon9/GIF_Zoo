@@ -34,3 +34,12 @@ nextBtn.addEventListener('click', function() {
     offset += 25;
     fetchGifs(query);
 });
+document.getElementById('home-tab').addEventListener('click', function() {
+    
+    gifContainer.innerHTML = '';
+    searchBar.value = '';
+    query = '';
+    offset = 0;
+    prevBtn.disabled = true;
+    nextBtn.disabled = true;
+});
