@@ -1,9 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T00:31:27.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.2.0" etag="TMC-NX3CxsD6GWH5Cjgx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T00:34:19.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="954PwCh4rKCJe3GovSzm" version="24.2.0" type="github">
   <diagram name="Page-1" id="fWgeyBn1P__wpB9ZqzRz">
-    <mxGraphModel>
+    <mxGraphModel dx="453" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-1" target="cG3ntTjoPabtiOp9hUnB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-1" target="cG3ntTjoPabtiOp9hUnB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-1" target="cG3ntTjoPabtiOp9hUnB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-1" target="cG3ntTjoPabtiOp9hUnB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-1" value="Home Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="-11" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-2" value="Submit a New GIF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="93" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-6" target="cG3ntTjoPabtiOp9hUnB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-6" value="Home Tab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="93" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-7" target="cG3ntTjoPabtiOp9hUnB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-7" value="Search Bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="93" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cG3ntTjoPabtiOp9hUnB-11" target="cG3ntTjoPabtiOp9hUnB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-11" value="Select what GIF the user wants" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cG3ntTjoPabtiOp9hUnB-13" value="GIF Library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
